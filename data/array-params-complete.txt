@@ -1,1 +1,2 @@
-001 ALICE-processing/data/repertoires/dcr_HVO_550630_D9_1_beta.tsv.gz ALICE-processing/data/classification
+001 ALICE-processing/data/repertoires/dcr_HVO_000123_pre_1_beta.tsv.gz ALICE-processing/data/classification
+002 ALICE-processing/data/repertoires/dcr_HVO_000123_D28_1_beta.tsv.gz ALICE-processing/data/classification
