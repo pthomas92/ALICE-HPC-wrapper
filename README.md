@@ -36,7 +36,7 @@ The pipeline was designed to run from $HOME/Scratch directory. This folder shoul
 	* unpacked: location to extract the .tgz files to
 
 ### Example Run
-I've provided a single repertoire for analysis in this directory. Perform tests using this file.
+I've provided 2 repertoires from the COVIDsortium study for analysis in this directory (Milighetti et al., DOI: 10.1016/j.isci.2023.106937). Perform tests using these files.
 
 1. Clone this repository to your Scratch 
 
@@ -73,10 +73,9 @@ I've provided a single repertoire for analysis in this directory. Perform tests 
 
 4. Submit the job to the scheduler:
 ```
-qsub -t 1 submitAlice-Myriad_single-Run_multicore_large_long_array.sh
+qsub -t 1-2 submitAlice-Myriad_single-Run_multicore_large_long_array.sh
 ```
-The -t flag here is used because the full script is designed to submit an array job across 196 repertoires. Use this to limit it to just the test repertoire. This job took ~33 hours for the full repertoire. To speed up the test, consider filtering by the most 
-common VJ gene recombination in the output file (TRBV19_TRBJ2-1). Expect 31 significantly enriched sequences to be returned by the pipeline.
+The -t flag here is used because the full script is designed to submit an array job across 196 repertoires. Use this to limit it to just the test repertoire.
 
 5. When complete, navigate to the $HOME/Scratch/output directory and run:
 ```
