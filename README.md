@@ -19,6 +19,9 @@ ALICE algorithm on our HPC cluster. Due to the number of repertoires and timepoi
 download from github if they wish, but it may require the same tinkering.
 
 ### Repository setup
+
+Firstly, in all job submission scripts and Rscripts, correct the working directory/file paths. They are currently listed as ```/home/<USER_NAME>/...``` but should be corrected for your use case.
+
 The pipeline was designed to run from $HOME/Scratch directory. This folder should contain the following directories:
 * ALICE (the downloaded github repository)
 * repertoires (folder containing the repertoires to be processed. We use files processed from the Chain Lab at UCL's decombinator pipeline doi: https://doi.org/10.1093/bioinformatics/btt004)
