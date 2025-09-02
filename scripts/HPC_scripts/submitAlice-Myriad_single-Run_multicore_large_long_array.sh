@@ -4,7 +4,7 @@
 #$ -N test_ALICE
 #$ -pe smp 10
 #$ -t 1-196
-#$ -wd /home/ucbtpt0/Scratch/output/jobscript_output
+#$ -wd /home/<USER_NAME>/Scratch/output/jobscript_output
 
 echo "Running on host: $(hostname)"
 echo "Working directory is: $(pwd)"

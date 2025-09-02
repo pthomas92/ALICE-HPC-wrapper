@@ -21,7 +21,7 @@
 # necessary because the compute nodes cannot write to your $HOME
 # NOTE: this directory must exist.
 # Replace "<your_UCL_id>" with your UCL user ID
-#$ -wd /home/ucbtpt0/Scratch/output/jobscript_output
+#$ -wd /home/<USER_NAME>/Scratch/output/jobscript_output
 
 echo "Running on host: $(hostname)"
 echo "Working directory is: $(pwd)"
