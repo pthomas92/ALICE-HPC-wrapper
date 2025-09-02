@@ -1,7 +1,7 @@
 
 ##### setup #####
 
-source('/home/ucbtpt0/Scratch/ALICE/ALICE.R')
+source('/home/<USER_NAME>/Scratch/ALICE/ALICE.R')
 
 library(tidyverse)
 library(parallel)
